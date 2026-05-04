@@ -1,0 +1,31 @@
+﻿# Dependencies
+node_modules/
+
+# Next.js build output
+.next/
+out/
+
+# Environment variables (CRITICAL - never commit your API keys)
+.env
+.env.local
+.env.development.local
+.env.production.local
+
+# Logs
+*.log
+npm-debug.log*
+
+# OS
+.DS_Store
+Thumbs.db
+
+# Editor
+.vscode/
+.idea/
+
+# Vercel
+.vercel/
+
+# TypeScript build
+*.tsbuildinfo
+next-env.d.ts
